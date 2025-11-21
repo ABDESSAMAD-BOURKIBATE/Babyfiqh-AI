@@ -1,6 +1,5 @@
 
 import React, { useState, useCallback, useRef, useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { ChatDisplay } from './components/ChatDisplay';
