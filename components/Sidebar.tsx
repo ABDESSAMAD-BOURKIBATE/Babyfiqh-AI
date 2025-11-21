@@ -109,7 +109,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 <div className={`p-5 flex items-center justify-between border-b ${theme.border}`}>
                     <div className="flex items-center gap-3">
                         <div className={`p-2 rounded-xl shadow-sm ${theme.logoBg} overflow-hidden`}>
-                            <img src="/images/babyfiqh-ai.png" alt="Babyfiqh AI" className="w-7 h-7 object-contain" />
+                            <img src="images/babyfiqh-ai.png" alt="Babyfiqh AI" className="w-7 h-7 object-contain" />
                         </div>
                         <span className={`font-bold text-lg font-cairo tracking-wide ${theme.textPrimary}`}>
                             Babyfiqh AI
@@ -141,7 +141,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                                     }`}
                             >
                                 <img
-                                    src="/images/limanour.png"
+                                    src="images/limanour.png"
                                     alt={translations[currentLang].characters.limanour.name}
                                     className="w-12 h-12 object-contain drop-shadow-md"
                                 />
@@ -157,7 +157,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                                     }`}
                             >
                                 <img
-                                    src="/images/amanisa.png"
+                                    src="images/amanisa.png"
                                     alt={translations[currentLang].characters.amanissa.name}
                                     className="w-12 h-12 object-contain drop-shadow-md"
                                 />

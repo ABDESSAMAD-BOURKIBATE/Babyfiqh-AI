@@ -66,7 +66,7 @@ export const ChatDisplay: React.FC<ChatDisplayProps> = ({
   const t = translations[currentLang].ui;
   const charInfo = translations[currentLang].characters[characterId];
   const characterName = charInfo.name;
-  const characterImage = characterId === 'limanour' ? '/images/limanour.png' : '/images/amanisa.png';
+  const characterImage = characterId === 'limanour' ? 'images/limanour.png' : 'images/amanisa.png';
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
